@@ -1403,6 +1403,7 @@ pre code {
         -ms-flex: 0 0 33.33333%;
             flex: 0 0 33.33333%;
     max-width: 33.33333%;
+    
   }
   .col-lg-5 {
     -webkit-box-flex: 0;
@@ -11685,7 +11686,19 @@ pre .code {
   margin-top: 10px;
 }
 
-
 .background-contacte{
   background-color: #343a40;
+}
+
+#skill { 
+  display: flex;
+  flex-wrap: nowrap;
+  
+
+}
+
+#skill .card{
+  min-width: 100%;
+  margin-right: 40px;
+  margin-left: 120px;
 }
